@@ -1,5 +1,6 @@
 const { assert } = require("chai");
 
+
 const TodoList = artifacts.require('./TodoList.sol');
 
 contract('TodoList', (accounts) => {
